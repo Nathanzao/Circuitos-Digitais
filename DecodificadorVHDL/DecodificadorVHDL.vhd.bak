@@ -1,0 +1,21 @@
+entity DecodificadorVHDL is
+		port(
+				in_1		: in bit;
+				in_0		: in bit;
+				out_0		: out bit;
+				out_1		: out bit;
+				out_2		: out bit;
+				out_3		: out bit
+			);
+	end DecodificadorVHDL;
+	
+	architecture ArquiteturaDecodificador of DecodificadorVHDL is
+	begin
+	
+	out_0 <= (not in_1 and not in_0);
+	out_1 <= (not in_1 and in_0);
+	out_2 <= (in_1 and not in_1);
+	out_3 <= (in_1 and in_0);
+	
+	
+	end ArquiteturaDecodificador;
