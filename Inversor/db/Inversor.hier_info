@@ -1,0 +1,5 @@
+|Inversor
+Saida <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Entrada => inst.IN0
+
+
