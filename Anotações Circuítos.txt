@@ -1,0 +1,34 @@
+    - FPGA:
+Onde estão as portas lógicas.
+RAM.
+Dispositivos Logicos Programaveis.
+
+
+
+    - Circuito Somador:
+Soma.
+Contagem de determinado evento.
+
+    - Circuito Decodificador:
+Uma de suas entradas será exibida na saída.
+Algumas entradas e várias saídas.
+Conversões de código.
+
+    - Multiplexador:
+Através de uma seleção de dados, escolhe uma de suas entradas para ser exibida na saída.
+Várias entradas e uma saida.
+Rádio.
+
+    - Latch:
+Aquela versão primitiva do Flip Flop sem o TRIGGER.
+Armazena informações.
+
+    - Flip Flop:
+Armazena informações.
+Tem TRIGGER.
+
+    - Registrador:
+Flip Flop em paralelo.
+ 
+    - Contador:
+Realiza contagem regressiva.
